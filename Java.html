@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Java</title>
+<style>
+body {
+  background-color:#FFE5CC;
+}
+</style>
+    </head>
+    <body>
+
+ <h1 style="background-color:white; color:#D0A384;"><center><b><i><u>Java
+<img src = "C:\Users\Dhairya\Downloads/icon.png" width = "30" height = "30" align="right"/></u></i></b></center></h1>
+ <h3 style="border-style: dotted;">
+        <p>Java is a platform independent object oriented programming language. Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995.James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company,so James Gosling and his team changed the name from Oak to Java. Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS.</p></h3>
+Click on the links to directly access topic-
+<b><i><u><caption><h3>Index</h3></caption></u></i></b>
+<table border="1" cellspacing="2" cellpadding="2">
+<tr>
+<th>No.</th>
+<th>Topics</th>
+</tr>
+<tr>
+<td>1</td>
+<td><a href="#Applications">Applications</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="#buzzwords">Buzzwords</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="#Jdk">Tools</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="#dt">Data Types</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="#control">Control Statements</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="#loop">Looping</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="#function">Function</a></td>
+</tr>
+<td>8</td>
+<td><a href="#array">Array</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="#OOPs">Object Oriented Programming</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="#const">Constructors</a></td>
+</tr>
+</table>
+<marquee scrollamount="5" behavior="alternate" direction="left"><h3>This website covers basics of JAVA course</marquee>
+<hr align="center" size=15 width=100% color="black">
+<a name="Applications"</a>
+             <h2 style="border-style: solid; border-color: white;">Applications of Java</h2>
+             <p>Java is used in many applications such as-<br>
+                Desktop Applications , Games , Mobile, Web Applications etc.<br>
+Developers use Java to construct applications in laptops, data centres, game consoles, scientific supercomputers, cell phones, and other devices.
+            </p>
+<a name="buzzwords"</a>
+           <h2 style="border-style: dotted; border-color: white;"> Java Buzzwords </h2>
+<font face="Times New Roman">
+The features of Java are also known as Java buzzwords.
+<br><ol>
+<b><li>Simple</li></b>
+Java is very easy to learn, and its syntax is simple, clean and easy to understand. According to Sun Microsystem, Java language is a simple programming language because:
+   <ul>
+       <li>  Java syntax is based on C++ (so easier for programmers to learn it after C++).</li>
+  <li>   Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.</li>
+   <li>There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.</li>
+</ul>
+<br>
+<b><li>Object-oriented</li></b> 
+Java is an object-oriented programming language. Everything in Java is an object. Object-oriented means we organize our software as a combination of different types of objects that incorporate both data and behavior.
+
+Object-oriented programming (OOPs) is a methodology that simplifies software development and maintenance by providing some rules.
+Basic concepts of OOPs are:
+   <ul>
+<img src="C:\Users\Dhairya\Downloads/oop.png" align="right">
+<li>  Object</li>
+    <li> Class</li>
+    <li>Inheritance</li>
+    <li> Polymorphism</li>
+    <li> Abstraction</li>
+    <li> Encapsulation</li>
+</ul>
+<br>
+<b><li>Platform Independent</li></b>
+
+Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language. A platform is the hardware or software environment in which a program runs.<br>
+There are two types of platforms software-based and hardware-based. Java provides a software-based platform.
+The Java platform differs from most other platforms in the sense that it is a software-based platform that runs on top of other hardware-based platforms. It has two components:<br>
+    1. Runtime Environment<br>
+    2. API(Application Programming Interface)<br>
+Java code can be executed on multiple platforms, for example, Windows, Linux, Sun Solaris, Mac/OS, etc. Java code is compiled by the compiler and converted into bytecode. This bytecode is a platform-independent code because it can be run on multiple platforms, i.e., Write Once and Run Anywhere (WORA).
+<br>
+<br>
+<b><li>Secured</li></b>
+
+Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:<br>
+    • No explicit pointer<br>
+    • Java Programs run inside a virtual machine sandbox<bR>
+
+    • Classloader: <br>
+Classloader in Java is a part of the Java Runtime Environment (JRE) which is used to load Java classes into the Java Virtual Machine dynamically. It adds security by separating the package for the classes of the local file system from those that are imported from network sources.<br>
+    • Bytecode Verifier: It checks the code fragments for illegal code that can violate access rights to objects.
+    • Security Manager: It determines what resources a class can access such as reading and writing to the local disk.
+Java language provides these securities by default. Some security can also be provided by an application developer explicitly through SSL, JAAS, Cryptography, etc.
+<br><br>
+<b><li>Robust</li></b>
+
+The English mining of Robust is strong. Java is robust because:
+    • It uses strong memory management.
+    • There is a lack of pointers that avoids security problems.
+    • Java provides automatic garbage collection which runs on the Java Virtual Machine to get rid of objects which are not being used by a Java application anymore.
+    • There are exception handling and the type checking mechanism in Java. All these points make Java robust.
+    <br>
+    <br>
+<b><li>Architecture-neutral</li></b>
+
+Java is architecture neutral because there are no implementation dependent features, for example, the size of primitive types is fixed.
+In C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of memory for 64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architectures in Java.
+<br>
+<br>
+<b><li>Portable</li></b>
+
+Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+<br>
+<br>
+<b><li>High-performance</li></b>
+
+Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. It is still a little bit slower than a compiled language (e.g., C++). Java is an interpreted language that is why it is slower than compiled languages, e.g., C, C++, etc.
+<br>
+<br>
+<b><li>Distributed</li></b>
+
+Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications. This feature of Java makes us able to access files by calling the methods from any machine on the internet.
+<br>
+<br>
+<b><li>Multi-threaded</li></b>
+
+A thread is like a separate program, executing concurrently. We can write Java programs that deal with many tasks at once by defining multiple threads. The main advantage of multi-threading is that it doesn't occupy memory for each thread. It shares a common memory area. Threads are important for multi-media, Web applications, etc.
+<br>
+<br>
+<b><li>Dynamic</li></b>
+
+Java is a dynamic language. It supports the dynamic loading of classes. It means classes are loaded on demand. It also supports functions from its native languages, i.e., C and C++.
+Java supports dynamic compilation and automatic memory management (garbage collection).
+<br>
+<br>
+<b><li> Interpreted</li></b>
+
+The Java interpreter converts the Java bytecode (. class file) into the code understand by the operating system. Java interpreter is a computer program (system software) that implements the JVM. It is responsible for reading and executing the program. It is designed in such a way that it can read the source program and translate the source code instruction by instruction. It converts the high-level program into assembly language (machine language).   </font>               </ol> 
+<hr align="center" size=15 width=100% color="black">
+<h3>Creating a Java Program</h3>
+<table border="1" cellpadding = "5">
+<th>
+class Simple{  <br>
+    public static void main(String args[]){<br>  
+     System.out.println("Let's Learn Java");  <br>
+    }  
+}  
+
+</th>
+</table><br>
+<p>
+<font face="arial">
+A <b>Package</b> is a collection of classes and interface.
+Public – because we want to call main method from outside.<br>
+Static- If function is static, it can be called without creating object of that class to which it belongs.<br>
+Because we want to call main method without creating object of class.<br>
+Void- the main will not return any thing.<br>
+String args[]- it is command line argument which is an array of string.
+If we don’t use brackets then it will be treated as strings and then it will concate.
+</font>
+</p>
+<hr align="center" size=15 width=100% color="black">
+<a name="Jdk"</a>
+<font face="Algerian">Tools Required for Running and building a java program</font>
+<h3>JDK</h3>
+JDK is an acronym for Java Development Kit. The Java Development Kit (JDK) is a software development environment which is used to develop Java applications and applets
+. It physically exists. It contains JRE + development tools.
+The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), 
+a documentation generator (Javadoc), etc. to complete the development of a Java Application.
+<h3>JRE</h3>
+JRE is an acronym for Java Runtime Environment. It is also written as Java RTE. The Java Runtime Environment is a set of software 
+tools which are used for developing Java applications. 
+It is used to provide the runtime environment. 
+It is the implementation of JVM. It physically exists. 
+It contains a set of libraries + other files that JVM uses at runtime.
+<h3>JVM</h3>
+JVM (Java Virtual Machine) is an abstract machine. It is called a virtual machine because it doesn't physically exist. 
+It is a specification that provides a runtime environment in which Java bytecode can be executed. 
+It can also run those programs which are written in other languages and compiled to Java bytecode.
+<br>
+<hr align="center" size=15 width=100% color="black">
+<a name="dt"</a>
+<h3>Java Data Types</h3>
+<img src="C:\Users\Dhairya\Downloads/java-data-types.png" align="right">
+<table border="1">
+    <TR>
+        <th>Data Type</th>
+        <th>Default Value</th>
+        <th>Default size</th>
+        </TR>
+        <TR>
+        <TD>boolean</TD>
+        <TD>false</TD>
+        <TD >1 bit</TD>
+        </TR>
+        <TR>
+        <TD>char</TD>
+        <TD>'\u0000'</TD>
+        <TD>2 byte</TD>
+        </TR>
+        <TR>
+        <TD>byte</TD>
+        <TD>0</TD>
+        <TD>1 byte</TD>
+        </TR>
+        <TR>
+        <TD>short</TD>
+        <TD>0</TD>
+        <TD>2 byte</TD>
+        </TR>
+        <TR>
+        <TD>int</TD>
+        <TD>0</TD>
+        <TD>4 byte</TD>
+        </TR>
+        <TR>
+        <TD>long</TD>
+        <TD>0L</TD>
+        <TD>8 byte</TD>
+        </TR>
+        <TR>
+        <TD>float</TD>
+        <TD>0.0f</TD>
+        <TD>4 byte</TD>
+        </TR>
+        <TR>
+        <TD>double</TD>
+        <TD>0.0d</TD>
+        <TD >8 byte</TD>
+        </TR>
+</table>   
+<h3>Variables</h3>
+It is used to intitialize,store data while the program is executed.<br>
+Ex-int a=29;<br>
+Here int-data type , a-variable, 29-value<br>
+Variables can be of any data type depending on the programmer's requirement. <br>
+<br><b>Types of Variable-</b>
+<ul>
+<li>Local Variable</li>
+A variable declared inside the body of the method is called local variable.
+Variable can only be used within that method and the other methods in the class aren't even aware that the variable exists.
+<li>Instance Variable</li>
+A variable declared inside the class but outside the body of the method, is called an instance variable. <br>It is not declared as static.
+It is called an instance variable because its value is instance-specific and is not shared among instances.
+<li>Static Variable</li>
+A variable that is declared as static is called a static variable. It cannot be local. <br>Only a single copy of the static variable is created and share it among all the instances of the class.
+Memory allocation for static variables happens only once when the class is loaded in the memory.
+</ul>
+<hr align="center" size=15 width=100% color="black">
+<a name="control"</a>
+<h3>Control Statements</h3>
+<img src="C:\Users\Dhairya\Downloads/ifelse.png" align="right" height="250">
+<ol>
+    <li><h3>If-else</h3></li>
+    It is used to test the condition(true or false).<br>
+    It executes the if block if condition is true otherwise else block.<br>
+<table border="1" cellpadding = "2" bgcolor="lightGray">
+<td><h3>
+    <pre><b>
+        package ifelse;
+        import java.util.Sacanner;
+        public class ifelseexample{    
+            public static void main(String[] args) {     
+                int age;
+               System.out.println("Enter your age");
+               age=sc.nextInt();
+                if(age>=18){    
+                        System.out.println("You are eligible for license test");  
+                    } else{ 
+                       System.out.println("You are not eligible for license test");  
+                    }                  
+                  }    
+                } 
+  </b>  </pre> </h3>
+</td>
+</table>
+<br>
+    <li><h3>Switch</h3></li>
+    It executes one statement from multiple set of statements.<br>
+Each case statement can have a break statement which is optional. When control reaches to the break statement, it jumps the control after the switch expression. <br>If a break statement is not found, it executes the next case.
+The case value can have a default label which is optional.<br>
+    Syntax-<br>
+<table border="1" cellpadding = "4" bgcolor="lightGray">
+<td>
+   <b> <pre><h3>
+        switch(expression){    
+            case value1:    
+             //code to be executed;    
+             break;  //optional  
+            case value2:    
+             //code to be executed;    
+             break;  //optional  
+            ......    
+                
+            default:     
+              code to be executed if all cases are not matched;  
+            }    
+</h3>    </b></pre>
+</td>
+</table>
+    Example of switch-
+<table border="1" cellpadding = "4" bgcolor="lightGray">
+<td>
+   <b>
+    <pre><h3>
+        public class SwitchMonthExample {    
+            public static void main(String[] args) {    
+                //Specifying month number  
+                int month=7;    
+                String monthString="";  
+                //Switch statement  
+                switch(month){    
+                //case statements within the switch block  
+                case 1: monthString="1 - January";  
+                break;    
+                case 2: monthString="2 - February";  
+                break;    
+                case 3: monthString="3 - March";  
+                break;    
+                case 4: monthString="4 - April";  
+                break;    
+                case 5: monthString="5 - May";  
+                break;    
+                case 6: monthString="6 - June";  
+                break;    
+                case 7: monthString="7 - July";  
+                break;    
+                case 8: monthString="8 - August";  
+                break;    
+                case 9: monthString="9 - September";  
+                break;    
+                case 10: monthString="10 - October";  
+                break;    
+                case 11: monthString="11 - November";  
+                break;    
+                case 12: monthString="12 - December";  
+                break;    
+                default:System.out.println("Invalid Month!");    
+                }    
+                //Printing month of the given number  
+                System.out.println(monthString);  
+            }    
+            }   
+     </h3>   </b></pre>
+</td>
+</table>
+</ol>
+<hr align="center" size=15 width=100% color="black">
+<a name="loop"</a>
+    <h3>Loops</h3>
+    Executing a set of statements for a given n number of times.<br>
+    There are three types of loops <br>
+    <ul>
+        <li><h3>For loop</h3></li>
+    
+The for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.<br>
+The “for” loop in Java is an entry-controlled loop that facilitates a user to execute a block of a statement(s) iteratively for a fixed number of times. <br>The number of iterations depends on the test-condition given inside the “for” loop. The Java “for” loop is one of the easiest to understand Java loops.<br>
+Syntax:  
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+for (initialization expr; test expr; update exp)
+{
+     // body of the loop
+     // statements we want to execute
+}</h3></td>
+</pre>
+</table>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+class start {
+    public static void main(String[] args)
+    {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+</h3></pre></td>
+</table></ul>
+<ul>
+        <li><h3>While loop</h3></li>
+A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement. It is also known as <b>entry-controlled loop.</b>
+Syntax :
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+while (boolean condition)
+{
+   loop statements...
+}
+</h3></pre></td>
+</table>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+while(i<10)
+{
+System.out.println(i);
+i--;
+}
+</h3></pre></td>
+</table>
+<br>
+<img src="C:\Users\Dhairya\Downloads/flowchart_structure_loop.png" align="right">
+        <li><h3>Do while loop</h3></li>
+Do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of Exit Control Loop. 
+Syntax:
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+do
+{
+    statements..
+}
+while (condition);
+</h3></pre></td>
+</table>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray"><td><pre><h3>
+do{
+System.out.println(i);
+}while(i<10);
+</h3></pre></td>
+</table>
+</ul>
+<hr align="center" size=15 width=100% color="black">
+<a name="function"></a>
+<h3>Functions</h3>
+A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of re usability. Once a function is written, it can be called easily, without having to write the same code again and again.<br>
+Creating Function--
+<table border="1" cellpadding="3" bgcolor="lightGray">
+<td>
+<h3>
+<pre>
+public class Main {
+  static void fx() {
+    // code to be executed
+  }
+}
+</pre>
+</h3>
+</td>
+</table>
+To call a function in Java, write the method's name followed by two parentheses () and a semicolon;<br>
+Calling a Function-<br>
+<table border="1" cellpadding="3" bgcolor="lightGray">
+<td>
+<h3>
+<pre>
+public static void main(String[] args) {
+    fx();
+  }
+}
+</pre>
+</h3>
+</td>
+</table>
+<h3>Arguements in a Function</h3>
+Information can be passed to methods as parameter. Parameters act as variables inside the method.
+<br>
+Parameters are specified after the method name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.<br>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray">
+<td><h3>
+<pre>
+public class fun {
+  static void fx(String name, int age) {
+    System.out.println(name + " is " + age + " years old.");
+  }
+
+  public static void main(String[] args) {
+    fx("Araksh", 15);
+    fx("Shritu", 18);
+  }
+}
+</pre>
+</h3></td>
+</table>
+<h3> Function Overloading</h3>
+In function overloading, multiple methods can have same name having different parameters.<br>
+Here parameters means, data types and sequence of parameters will be different.<br>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray">
+<td><h3>
+<pre>
+static int addition(int x, int y) {
+  return x + y;
+}
+
+static double addition(double x, double y) {
+  return x + y;
+}
+
+public static void main(String[] args) {
+  int myNum1 = addition(8, 5);
+  double myNum2 = addition(4.3, 6.26);
+  System.out.println("int: " + myNum1);
+  System.out.println("double: " + myNum2);
+}
+</pre>
+</h3></td>
+</table>
+<h3>Function Calling</h3>
+Each method has its own name by which it is called. When the compiler reads the method name, the method is called and performs the specified task.<br>
+Example-
+<table border="1" cellpadding="3" bgcolor="lightGray">
+<td><h3>
+<pre>
+public class JavaApplication13 {
+   int data=50; 
+    void change(int data)
+    {
+        data=data+100;
+    }
+    
+    void changes(JavaApplication13 obj)
+    {
+        obj.data=obj.data+100;
+    }
+
+public static void main(String[] args) {
+      JavaApplication13 obj=new JavaApplication13();
+      System.out.println("Call by value");
+      System.out.println("before change "+obj.data);    
+      obj.change(200);
+      System.out.println("after change "+obj.data);
+      System.out.println("Call by reference");
+      System.out.println("before change "+obj.data);  
+      obj.changes(obj);//passing object  
+      System.out.println("after change "+obj.data);  
+    }
+}
+</pre>
+</h3></td>
+</table>
+<hr align="center" size=15 width=100% color="black">
+<a name="array"></a>
+<h2>Array</h2>
+    <p>Normally, an array is a collection of similar type of elements which has contiguous memory location.</p>
+    <p>Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.</p>
+    <p>Array in Java is index-based, the first element of the array is stored at the 0th index, 2nd element is stored on 1st index and so on.</p>
+    <p>In Java, array is an object of a dynamically generated class. Java array inherits the Object class, and implements the Serializable as well as Cloneable interfaces. We can store primitive values or objects in an array in Java. Like C/C++, we can also create single dimentional or multidimentional arrays in Java.</p>
+<h3>Advantages</h3>
+<ul>
+<li><b>Code Optimization: </b></li> makes the code optimized, we can retrieve or sort the data efficiently.<br></li>
+<li><b>Random access:</b></li> We can get any data located at an index position.</li>
+</ul>
+<h3>Disadvantages</h3>
+ <li><b>Size Limit: </b></li>We can store only the fixed size of elements in the array. It doesn't grow its size at runtime. To solve this problem, collection framework is used in Java which grows automatically.</li></b>
+    <h3>Types of Array in java</h3>
+    <p>There are two types of array.</p>
+    <ul>
+        <li>
+            Single Dimensional Array<br>
+        </li>
+        <li>
+            Multidimensional Array- Represented as a matrix.
+        </li>
+    </ul>
+    <h3>Single Dimensional Array in Java</h3>
+One Dimensional Array in java is always used with only one subscript([]). A one-dimensional array behaves likes a list of variables. 
+    <h4>Syntax to Declare an Array in Java</h4>
+    <pre><h4><table border="1" bgcolor="lightGray"><th>
+        dataType[] arr; (or)  
+        dataType []arr; (or)  
+        dataType arr[]; 
+    </pre></th>
+</h4></table>
+Example-
+<h4>
+<table border="1" bgcolor="lightGray"><td>
+<pre>
+        class Testarray{  
+            public static void main(String args[]){  
+            int a[]=new int[5];//declaration and instantiation  
+            a[0]=10;//initialization  
+            a[1]=20;  
+            a[2]=70;  
+            a[3]=40;  
+            a[4]=50;  
+           }
+         }     
+    </pre></td>
+</table></h4>
+<h2>Multi-Dimensional Array</h2>
+<font size="4">
+A multi-dimensional array is an array with more than one level or dimension. <br>For example, a 2D array, or two-dimensional array, is an array of arrays, meaning it is a matrix of rows and columns (think of a table).
+Syntax-
+<h4><table border="1" bgcolor="lightGray"><td><pre>
+array_name[row_index][column_index] = value;
+int[][] twoD_arr = new int[10][20];
+</pre></td></table></h4>
+Example-
+<h4><table border="1" bgcolor="lightGray"><td><pre>
+class mdarr {
+    public static void main(String[] args)
+    {
+        int[][] arr = new int[10][20];
+        arr[0][0] = 1;
+//insert values like this 
+        System.out.println("arr[0][0] = " + arr[0][0]);
+    }
+}
+</pre></td></table></h4>
+</font>
+<hr align="center" size=15 width=100% color="black">
+<a name="OOPs"></a>
+<h2><center><i><u>Object Oriented Programming</h2></center></i></u>
+<font size="4">A <b>class</b> declararion is only for  creating a template used to create objects and to define object data types and methods.<br>Classes represents ADT(Abstract Data Types).<br>It describes the behaviors and states the objects of its type.<br>
+Syntax-</font>
+<table border="1" cellpadding="2" bgcolor="lightGray">
+<td><pre><h3>
+class ClassName
+{
+//define data members;
+//define mehods;
+}
+</h3></pre></td></table>
+<font size="4">A Java <b>object</b> is a member (also called an instance) of a Java class. <br>Each object has an identity, a behavior and a state. <br>The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. <br>In java, an object is created when we use the keyword "new".This new keyword allocate memory at runtime.<br>
+Syntax-</font>
+<table border="1" cellpadding="2" bgcolor="lightGray">
+<td><pre><h3>
+Student s1=new Student();
+</h3></pre></td></table>
+Example-
+<table border="1" cellpadding="2" bgcolor="lightGray">
+<td><pre><h3>
+public class JavaApplication15 {
+  public void data(int a,String s)
+      {
+          System.out.print("Data="+a);
+          System.out.println("  String="+s);
+      }
+  
+    public static void main(String[] args) {
+      JavaApplication15 obj=new JavaApplication15();
+      obj.data(1, "Dhairya");
+      }
+    }
+</h3></pre></td></table>
+<h3>Access Modifiers-
+<ul>
+<li>Public</li>
+<li>Private</li>
+<li>Protected</li></ul>
+A variable or method that is public means that any class can access it. It is visible to all the classes.<br>
+The main() method is always defined as public because the main() is accessed by JVM which is outside the class in which main() method is defined.<br>
+
+If we specify the modifier private with a member variable or method then that member will not be visible outside the class.<br>
+This will hide the members of a class from other classes which helps to encapsulate member methods and member variables effectively.<br>
+
+Protected variables and methods allow accessing by the class inside of the same package, and subclasses of that package.<br>
+So, a member declared as protected can be accessed from all the classes belonging the same package.
+</h3>
+<hr align="center" size=15 width=100% color="black">
+<a name="const"></a>
+<font size="5"><b><i>Constructors</i></b></font><br>
+<font size="4">A constructor is a block of codes similar to the method .
+It is called when an instance of the class is created .
+At the time of calling contructor memory for the object is allocated in the memory.
+It is a special type of method which is used to initialize the object.
+
+Example-
+<table border="1" bgcolor="lightGray"><td>
+class constr{
+private string name;
+
+//constructor 
+constr(){
+  system.out.println("constructor called:);
+  name ="const";
+   }
+ public static void main(string[] args) {
+// constructor is invoked while 
+// creating an object of the constr class 
+ constr obj =new constr();
+ system.out.println(" The name is" +obj.name);
+}
+}
+</td>
+</table>
+
+                                                <b><i>     Rules of constructor</b></i> 
+1. A constructor does not have return type.
+2. The name of the constructor is same name as the name of the class.
+3. A constructor cannot be abstract, final ,static and synchronized.
+4. We can use the acess specifiers public,protected and private with constructor.
+
+                                                  <b><i>   Types of constructor </b></i>
+1. Default constructor 
+2. Parameterized constructor 
+
+1. Default contructor 
+In this contructor we dont supply any arguement. In this class variable are initalized by prefixed values.
+These values will be same for all objects.
+Syntax-
+class name()
+{
+variable 1=value;
+variable2=value;
+}
+
+2. Parameterized constructor 
+In this constructor we supply parameters or arguments at the time of object creation.<br>Class variable are initalized by the arguments which are supplied so different objects may have different values.
+Syntax- 
+class name (arguments1,argument 2)
+{
+variable 1=argument 1;
+variable 2=argument 2;
+}
+<h5> Example of a constructor-</h5>
+<pre>
+<table border="1" bgcolor="lightGray">
+<td>
+package constr;
+public class Constr {
+    String name;
+    int age;
+    Constr(String s,int a)
+    {
+       name=s;
+       age=a;
+    }
+     void display()
+     {
+         System.out.println("Name="+name);
+         System.out.println("Age="+age);
+     }  
+    public static void main(String[] args) {
+      Constr obj=new Constr("Dhairya",20);
+      obj.display();
+    }
+}
+</td></table>
+</pre>
+</font>
+<marquee scrollamount="5" behavior="alternate" direction="left"><h3>Thanks for clicking on our website</h3></marquee>
+<marquee scrollamount="5" behavior="alternate" direction="right"><h3>Happy Learning :)</h3></marquee>
+<font face="WildWest" size="4">
+This website is created by -<br>
+Dhairya Saraswat<br>
+Ashish Mundra<br>
+Sourabh Singh<br>
+Aditya Sharma <br></font>
+<img src = "C:\Users\Dhairya\Downloads/icon.png" width = "50" height = "50" align="right"/>
+</body>
+</html>
